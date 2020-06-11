@@ -10,44 +10,44 @@ cards:
   # Living Room
   - type: vertical-stack
     title: Woonkamer
-    cards:
-      - type: entities
-        entities:
-          - entity: input_select.occupancy
-      - type: thermostat
-        name: Woonkamer
-        entity: climate.living_room_thermostat
-      - type: sensor
-        entity: sensor.nest_temperature
-        name: Woonkamer temperatuur
-        graph: line
-        detail: 1
-      - type: entities
-        title: Automations
-        show_header_toggle: false
-        entities:
-          - entity: automation.sync_kitchen_thermostat_on_with_nest_thermostat
+    # cards:
+    #   - type: entities
+    #     entities:
+    #       - entity: input_select.occupancy
+    #   - type: thermostat
+    #     name: Woonkamer
+    #     entity: climate.living_room_thermostat
+    #   - type: sensor
+    #     entity: sensor.nest_temperature
+    #     name: Woonkamer temperatuur
+    #     graph: line
+    #     detail: 1
+    #   - type: entities
+    #     title: Automations
+    #     show_header_toggle: false
+    #     entities:
+    #       - entity: automation.sync_kitchen_thermostat_on_with_nest_thermostat
 
   # Kitchen
   - type: vertical-stack
     title: Keuken
-    cards:
-      - type: thermostat
-        name: Keuken
-        entity: climate.qubino_goap_zmnhidx_flush_on_off_thermostat_h1s2p1_mode
-      - type: entities
-        entities:
-          - entity: sensor.qubino_goap_zmnhidx_flush_on_off_thermostat_h1s2p1_power
-            name: Huidig stroom verbruik
-            icon: mdi:power-plug
-          - entity: sensor.qubino_goap_zmnhidx_flush_on_off_thermostat_h1s2p1_energy
-            name: Totaal stroom verbruik
-            icon: mdi:power-plug
-      - type: sensor
-        entity: sensor.qubino_goap_zmnhidx_flush_on_off_thermostat_h1s2p1_temperature
-        name: Keuken temperatuur
-        graph: line
-        detail: 1
+    # cards:
+    #   - type: thermostat
+    #     name: Keuken
+    #     entity: climate.qubino_goap_zmnhidx_flush_on_off_thermostat_h1s2p1_mode
+    #   - type: entities
+    #     entities:
+    #       - entity: sensor.qubino_goap_zmnhidx_flush_on_off_thermostat_h1s2p1_power
+    #         name: Huidig stroom verbruik
+    #         icon: mdi:power-plug
+    #       - entity: sensor.qubino_goap_zmnhidx_flush_on_off_thermostat_h1s2p1_energy
+    #         name: Totaal stroom verbruik
+    #         icon: mdi:power-plug
+    #   - type: sensor
+    #     entity: sensor.qubino_goap_zmnhidx_flush_on_off_thermostat_h1s2p1_temperature
+    #     name: Keuken temperatuur
+    #     graph: line
+    #     detail: 1
 
   # Environment
   - type: vertical-stack
